@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.content{
+    background-color: white;
+    /* background-color:white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+}
+
+.logo{
+    margin-top: 20rem;
+    padding: 4rem;
+}
+
+.search-box-container{
+    text-align: center;
+    width: 60rem;
+    max-width: 90%;
+    height: 4.5rem;
+    background-color: #fff;
+    border-radius: 2.25rem;
+    padding: 1rem 1rem;
+    box-shadow: 0rem 0.1rem .5rem .1rem rgba(0, 0, 0, 0.2) ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-box-container img{
+    margin: 0 0.8rem;
+}
+
+.search-box{
+    border: hidden;
+    outline: none;
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100%;
+}
+
+.search-box-container .mic {
+    cursor: pointer;
+}
